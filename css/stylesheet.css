@@ -1,27 +1,12 @@
-body {
-	background-color:#E1E5E8;
-	font-padding:0px;
+body{
+	padding-top: 65px;
 }
 
-div {
-	width:800px;
-	margin:auto;
-	text-indent:1em;
-}
 #header {
 	background-color:#2A2F73;
 	margin-top:-50px;
 	height:180px;
 	z-index:1;
-}
-
-h1 {
-	color:white;
-	padding-top:40px;
-	text-align: center;
-	font-size:4em;
-	font-family:Trebuchet Helvetica sans-serif;
-	line-height: 1.0;
 }
 
 #header p {

@@ -3,13 +3,13 @@
 <head>
 	
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 	
 	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 	<title>SwapnDrop</title>
@@ -17,25 +17,195 @@
 </head>
 
 <body>
-	
-	<div id='header'>
-		<h1> Swap 'n' Drop </h1>
-		<p><em>version 1.0</em></p>
-	</div>
+	    <!-- Fixed navbar -->
 
-	<div class='main'>
-		<br/>
-		<h3> identify your self and enter your shift details </h3>
-		
-	</div>
+	    <div class="navbar navbar-inverse navbar-fixed-top">
+	        <div class="container">
+	            <div class="navbar-header">
+	                <button class="navbar-toggle" data-target=".navbar-collapse"
+	                data-toggle="collapse" type="button"><span class=
+	                "sr-only">Toggle navigation</span></button> <a class=
+	                "navbar-brand" href="#">Swap 'n' Drop</a>
+	            </div>
+
+	            <div class="navbar-collapse collapse">
+	                <ul class="nav navbar-nav">
+	                    <li class="active"><a href="#">Home</a></li>
+
+	                    <li><a href="#about">About</a></li>
+
+	                    <li><a href="#contact">Contact</a></li>
+
+	                    <li class="dropdown">
+	                        <a class="dropdown-toggle" data-toggle="dropdown" href=
+	                        "#">Dropdown</a>
+
+	                        <ul class="dropdown-menu">
+	                            <li><a href="#">Action</a></li>
+
+	                            <li><a href="#">Another action</a></li>
+
+	                            <li><a href="#">Something else here</a></li>
+
+	                            <li class="dropdown-header">Nav header</li>
+
+	                            <li><a href="#">Separated link</a></li>
+
+	                            <li><a href="#">One more separated link</a></li>
+	                        </ul>
+	                    </li>
+	                </ul>
+
+	                <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="../navbar/">Default</a></li>
+
+	                    <li><a href="../navbar-static-top/">Static top</a></li>
+
+	                    <li class="active"><a href="./">Fixed top</a></li>
+	                </ul>
+	            </div><!--/.nav-collapse -->
+	        </div>
+	    </div>
+
+	    <div class="container">
+	        <!-- Main component for a primary marketing message or call to action -->
+
+	        <div class="jumbotron">
+	            <h1>Navbar example</h1>
+
+	            <p>This example is a quick exercise to illustrate how the default,
+	            static and fixed to top navbar work. It includes the responsive CSS
+	            and HTML, so it also adapts to your viewport and device.</p>
+
+	            <p>To see the difference between static and fixed top navbars, just
+	            scroll.</p>
+
+	            <p><a class="btn btn-lg btn-primary" href=
+	            "../../components/#navbar">View navbar docs »</a></p>
+	        </div>
 	
-	<div id='bottom'>
-	</div>
+			<form class="form-horizontal">
+			        <fieldset>
+			            <!-- Form Name -->
+			            <legend>Form Name</legend> <!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "textinput">Username</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="textinput" name=
+			                    "textinput" placeholder="placeholder" type="text">
+			                    <span class="help-block">help</span>
+			                </div>
+			            </div><!-- Password input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "passwordinput">Password Input</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="passwordinput"
+			                    name="passwordinput" placeholder="placeholder" type=
+			                    "password"> <span class="help-block">help</span>
+			                </div>
+			            </div><!-- Select Basic -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "selectbasic">Position</label>
+
+			                <div class="col-md-4">
+			                    <select class="form-control" id="selectbasic" name=
+			                    "selectbasic">
+			                        <option value="1">
+			                            Option one
+			                        </option>
+
+			                        <option value="2">
+			                            Option two
+			                        </option>
+			                    </select>
+			                </div>
+			            </div><!-- Select Multiple -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "selectmultiple">Replacement position</label>
+
+			                <div class="col-md-4">
+			                    <select class="form-control" id="selectmultiple" multiple=
+			                    "multiple" name="selectmultiple">
+			                        <option value="1">
+			                            Option one
+			                        </option>
+
+			                        <option value="2">
+			                            Option two
+			                        </option>
+			                    </select>
+			                </div>
+			            </div><!-- Multiple Radios -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="radios">Multiple
+			                Radios</label>
+
+			                <div class="col-md-4">
+			                    <div class="radio">
+			                        <label for="radios-0"><input checked="checked" id=
+			                        "radios-0" name="radios" type="radio" value="1">
+			                        Swap</label>
+			                    </div>
+
+			                    <div class="radio">
+			                        <label for="radios-1"><input id="radios-1" name=
+			                        "radios" type="radio" value="2"> Let go</label>
+			                    </div>
+			                </div>
+			            </div><!-- Button -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="singlebutton">Single
+			                Button</label>
+
+			                <div class="col-md-4">
+			                    <button class="btn btn-primary" id="singlebutton" name=
+			                    "singlebutton">Submit</button>
+			                </div>
+			            </div>
+			        </fieldset>
+			    </form>
+			
+				<button class="btn btn-primary btn-lg" data-target="#myModal" data-toggle=
+				    "modal">Launch demo modal</button> <!-- Modal -->
+
+				    <div class="modal fade" id="myModal" tabindex="-1">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				                <div class="modal-header">
+				                    <button class="close" data-dismiss="modal" type=
+				                    "button">×</button>
+
+				                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+				                </div>
+
+				                <div class="modal-body">
+				                    ...
+				                </div>
+
+				                <div class="modal-footer">
+				                    <button class="btn btn-default" data-dismiss="modal" type=
+				                    "button">Close</button> <button class="btn btn-primary"
+				                    type="button">Save changes</button>
+				                </div>
+				            </div>
+				        </div>
+				    </div>
 	
-	<div id='footer'>
-	</div>
-	
-<script type="text/javascript" src="/js/myscript.js"/>
-</body>
+	    </div><!-- /container -->
+	    <!-- Bootstrap core JavaScript
+
+	</body>
 
 </html>
