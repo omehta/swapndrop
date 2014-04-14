@@ -5,6 +5,9 @@
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
+	<!-- jquery addition -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 
@@ -38,14 +41,14 @@
 
 	                    <li class="dropdown">
 	                        <a class="dropdown-toggle" data-toggle="dropdown" href=
-	                        "#">Dropdown</a>
+	                        "#">My Shift</a>
 
 	                        <ul class="dropdown-menu">
-	                            <li><a href="#">Action</a></li>
+	                            <li><a href="swapit.html" title="swapit/swapit">Swap a Shift</a></li>
 
-	                            <li><a href="#">Another action</a></li>
+	                            <li><a href="#">Grab a Shift</a></li>
 
-	                            <li><a href="#">Something else here</a></li>
+	                            <li><a href="#">Register a Swap</a></li>
 
 	                            <li class="dropdown-header">Nav header</li>
 
@@ -71,7 +74,7 @@
 	        <!-- Main component for a primary marketing message or call to action -->
 
 	        <div class="jumbotron">
-	            <h1>Navbar example</h1>
+	            <h1>Swap 'n' Drop</h1>
 
 	            <p>This example is a quick exercise to illustrate how the default,
 	            static and fixed to top navbar work. It includes the responsive CSS
@@ -80,104 +83,11 @@
 	            <p>To see the difference between static and fixed top navbars, just
 	            scroll.</p>
 
-	            <p><a class="btn btn-lg btn-primary" href=
-	            "../../components/#navbar">View navbar docs »</a></p>
 	        </div>
 	
-			<form class="form-horizontal">
-			        <fieldset>
-			            <!-- Form Name -->
-			            <legend>Form Name</legend> <!-- Text input-->
-
-			            <div class="form-group">
-			                <label class="col-md-4 control-label" for=
-			                "textinput">Username</label>
-
-			                <div class="col-md-4">
-			                    <input class="form-control input-md" id="textinput" name=
-			                    "textinput" placeholder="placeholder" type="text">
-			                    <span class="help-block">help</span>
-			                </div>
-			            </div><!-- Password input-->
-
-			            <div class="form-group">
-			                <label class="col-md-4 control-label" for=
-			                "passwordinput">Password Input</label>
-
-			                <div class="col-md-4">
-			                    <input class="form-control input-md" id="passwordinput"
-			                    name="passwordinput" placeholder="placeholder" type=
-			                    "password"> <span class="help-block">help</span>
-			                </div>
-			            </div><!-- Select Basic -->
-
-			            <div class="form-group">
-			                <label class="col-md-4 control-label" for=
-			                "selectbasic">Position</label>
-
-			                <div class="col-md-4">
-			                    <select class="form-control" id="selectbasic" name=
-			                    "selectbasic">
-			                        <option value="1">
-			                            Option one
-			                        </option>
-
-			                        <option value="2">
-			                            Option two
-			                        </option>
-			                    </select>
-			                </div>
-			            </div><!-- Select Multiple -->
-
-			            <div class="form-group">
-			                <label class="col-md-4 control-label" for=
-			                "selectmultiple">Replacement position</label>
-
-			                <div class="col-md-4">
-			                    <select class="form-control" id="selectmultiple" multiple=
-			                    "multiple" name="selectmultiple">
-			                        <option value="1">
-			                            Option one
-			                        </option>
-
-			                        <option value="2">
-			                            Option two
-			                        </option>
-			                    </select>
-			                </div>
-			            </div><!-- Multiple Radios -->
-
-			            <div class="form-group">
-			                <label class="col-md-4 control-label" for="radios">Multiple
-			                Radios</label>
-
-			                <div class="col-md-4">
-			                    <div class="radio">
-			                        <label for="radios-0"><input checked="checked" id=
-			                        "radios-0" name="radios" type="radio" value="1">
-			                        Swap</label>
-			                    </div>
-
-			                    <div class="radio">
-			                        <label for="radios-1"><input id="radios-1" name=
-			                        "radios" type="radio" value="2"> Let go</label>
-			                    </div>
-			                </div>
-			            </div><!-- Button -->
-
-			            <div class="form-group">
-			                <label class="col-md-4 control-label" for="singlebutton">Single
-			                Button</label>
-
-			                <div class="col-md-4">
-			                    <button class="btn btn-primary" id="singlebutton" name=
-			                    "singlebutton">Submit</button>
-			                </div>
-			            </div>
-			        </fieldset>
-			    </form>
 			
-				<button class="btn btn-primary btn-lg" data-target="#myModal" data-toggle=
+			
+				<button class="btn btn-primary btn-xs" data-target="#myModal" data-toggle=
 				    "modal">Launch demo modal</button> <!-- Modal -->
 
 				    <div class="modal fade" id="myModal" tabindex="-1">
@@ -191,7 +101,100 @@
 				                </div>
 
 				                <div class="modal-body">
-				                    ...
+				     
+				
+									<form class="form-horizontal">
+									        <fieldset>
+									            <!-- Form Name -->
+									         <!-- Text input-->
+
+									            <div class="form-group">
+									                <label class="col-md-4 control-label" for=
+									                "textinput">Username</label>
+
+									                <div class="col-md-4">
+									                    <input class="form-control input-md" id="textinput" name=
+									                    "textinput" placeholder="placeholder" type="text">
+									                    <span class="help-block">help</span>
+									                </div>
+									            </div><!-- Password input-->
+
+									            <div class="form-group">
+									                <label class="col-md-4 control-label" for=
+									                "passwordinput">Password Input</label>
+
+									                <div class="col-md-4">
+									                    <input class="form-control input-md" id="passwordinput"
+									                    name="passwordinput" placeholder="placeholder" type=
+									                    "password"> <span class="help-block">help</span>
+									                </div>
+									            </div><!-- Select Basic -->
+
+									            <div class="form-group">
+									                <label class="col-md-4 control-label" for=
+									                "selectbasic">Position</label>
+
+									                <div class="col-md-4">
+									                    <select class="form-control" id="selectbasic" name=
+									                    "selectbasic">
+									                        <option value="1">
+									                            Option one
+									                        </option>
+
+									                        <option value="2">
+									                            Option two
+									                        </option>
+									                    </select>
+									                </div>
+									            </div><!-- Select Multiple -->
+
+									            <div class="form-group">
+									                <label class="col-md-4 control-label" for=
+									                "selectmultiple">Replacement position</label>
+
+									                <div class="col-md-4">
+									                    <select class="form-control" id="selectmultiple" multiple=
+									                    "multiple" name="selectmultiple">
+									                        <option value="1">
+									                            Option one
+									                        </option>
+
+									                        <option value="2">
+									                            Option two
+									                        </option>
+									                    </select>
+									                </div>
+									            </div><!-- Multiple Radios -->
+
+									            <div class="form-group">
+									                <label class="col-md-4 control-label" for="radios">Multiple
+									                Radios</label>
+
+									                <div class="col-md-4">
+									                    <div class="radio">
+									                        <label for="radios-0"><input checked="checked" id=
+									                        "radios-0" name="radios" type="radio" value="1">
+									                        Swap</label>
+									                    </div>
+
+									                    <div class="radio">
+									                        <label for="radios-1"><input id="radios-1" name=
+									                        "radios" type="radio" value="2"> Let go</label>
+									                    </div>
+									                </div>
+									            </div><!-- Button -->
+
+									            <div class="form-group">
+									                <label class="col-md-4 control-label" for="singlebutton">Single
+									                Button</label>
+
+									                <div class="col-md-4">
+									                    <button class="btn btn-success" id="singlebutton" name=
+									                    "singlebutton">Submit</button>
+									                </div>
+									            </div>
+									        </fieldset>
+									    </form>
 				                </div>
 
 				                <div class="modal-footer">

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+	<!-- jquery addition -->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	
+	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+	<title>SwapnDrop</title>
+	
+</head>
+
+<body>
+	    <!-- Fixed navbar -->
+
+	    <div class="navbar navbar-inverse navbar-fixed-top">
+	        <div class="container">
+	            <div class="navbar-header">
+	                <button class="navbar-toggle" data-target=".navbar-collapse"
+	                data-toggle="collapse" type="button"><span class=
+	                "sr-only">Toggle navigation</span></button> <a class=
+	                "navbar-brand" href="#">Swap 'n' Drop</a>
+	            </div>
+
+	            <div class="navbar-collapse collapse">
+	                <ul class="nav navbar-nav">
+	                    <li class="active"><a href="#">Home</a></li>
+
+	                    <li><a href="#about">About</a></li>
+
+	                    <li><a href="#contact">Contact</a></li>
+
+	                    <li class="dropdown">
+	                        <a class="dropdown-toggle" data-toggle="dropdown" href=
+	                        "#">Dropdown</a>
+
+	                        <ul class="dropdown-menu">
+	                            <li><a href="#">Action</a></li>
+
+	                            <li><a href="#">Another action</a></li>
+
+	                            <li><a href="#">Something else here</a></li>
+
+	                            <li class="dropdown-header">Nav header</li>
+
+	                            <li><a href="#">Separated link</a></li>
+
+	                            <li><a href="#">One more separated link</a></li>
+	                        </ul>
+	                    </li>
+	                </ul>
+
+	                <ul class="nav navbar-nav navbar-right">
+	                    <li><a href="../navbar/">Default</a></li>
+
+	                    <li><a href="../navbar-static-top/">Static top</a></li>
+
+	                    <li class="active"><a href="./">Fixed top</a></li>
+	                </ul>
+	            </div><!--/.nav-collapse -->
+	        </div>
+	    </div>
+
+	    <div class="container">
+	        <!-- Main component for a primary marketing message or call to action -->
+
+			<form class="form-horizontal">
+			        <fieldset>
+			            <!-- Form Name -->
+			            <legend>Swap This Shift</legend> <!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="textinput">Employee
+			                Number</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="textinput" name=
+			                    "textinput" placeholder="my employee number" required="" type=
+			                    "text">
+			                </div>
+			            </div><!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="textinput">First
+			                Name</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="textinput" name=
+			                    "textinput" placeholder="my first name" type="text">
+			                </div>
+			            </div><!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="textinput">Last
+			                Name</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="textinput" name=
+			                    "textinput" placeholder="my last name" required="" type=
+			                    "text">
+			                </div>
+			            </div><!-- Multiple Radios -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="myposition">My
+			                Position</label>
+
+			                <div class="col-md-4">
+			                    <div class="radio">
+			                        <label for="myposition-0"><input checked="checked" id=
+			                        "myposition-0" name="myposition" type="radio" value=
+			                        "1"> Intern</label>
+			                    </div>
+
+			                    <div class="radio">
+			                        <label for="myposition-1"><input id="myposition-1"
+			                        name="myposition" type="radio" value="2"> Resident
+			                        (HMO2)</label>
+			                    </div>
+
+			                    <div class="radio">
+			                        <label for="myposition-2"><input id="myposition-2"
+			                        name="myposition" type="radio" value="3"> Resident
+			                        (HMO3/4+)</label>
+			                    </div>
+
+			                    <div class="radio">
+			                        <label for="myposition-3"><input id="myposition-3"
+			                        name="myposition" type="radio" value="4"> Registrar
+			                        (BPT/unaccredited)</label>
+			                    </div>
+
+			                    <div class="radio">
+			                        <label for="myposition-4"><input id="myposition-4"
+			                        name="myposition" type="radio" value="5"> Registrar
+			                        (Senior/APT/accredited)</label>
+			                    </div>
+
+			                    <div class="radio">
+			                        <label for="myposition-5"><input id="myposition-5"
+			                        name="myposition" type="radio" value="6">
+			                        Fellow</label>
+			                    </div>
+			                </div>
+			            </div><!-- Multiple Checkboxes -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="replacement">Shift
+			                can be filled in by...</label>
+
+			                <div class="col-md-4">
+			                    <div class="checkbox">
+			                        <label for="replacement-0"><input id="replacement-0"
+			                        name="replacement" type="checkbox" value="1">
+			                        Intern</label>
+			                    </div>
+
+			                    <div class="checkbox">
+			                        <label for="replacement-1"><input id="replacement-1"
+			                        name="replacement" type="checkbox" value="2">
+			                        HMO2</label>
+			                    </div>
+
+			                    <div class="checkbox">
+			                        <label for="replacement-2"><input id="replacement-2"
+			                        name="replacement" type="checkbox" value="3">
+			                        HMO3+</label>
+			                    </div>
+
+			                    <div class="checkbox">
+			                        <label for="replacement-3"><input id="replacement-3"
+			                        name="replacement" type="checkbox" value="4"> Reg
+			                        (BPT/unaccredited)</label>
+			                    </div>
+
+			                    <div class="checkbox">
+			                        <label for="replacement-4"><input id="replacement-4"
+			                        name="replacement" type="checkbox" value="5"> Reg
+			                        (Senior/APT/accredited)</label>
+			                    </div>
+
+			                    <div class="checkbox">
+			                        <label for="replacement-5"><input id="replacement-5"
+			                        name="replacement" type="checkbox" value="6">
+			                        Fellow</label>
+			                    </div>
+			                </div>
+			            </div><!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="myshiftstrt">Shift
+			                START DATE</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="myshiftstrt" name=
+			                    "myshiftstrt" placeholder="DD/MM/YYYY" type="text">
+			                    <span class="help-block">please enter in the exact format
+			                    shown</span>
+			                </div>
+			            </div><!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "myshiftstrttime">Shift START TIME</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="myshiftstrttime"
+			                    name="myshiftstrttime" placeholder="2400 hours" type=
+			                    "text"> <span class="help-block">please type in 2400
+			                    hours</span>
+			                </div>
+			            </div><!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="myshiftend">Shift
+			                END DATE</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="myshiftend" name=
+			                    "myshiftend" placeholder="DD/MM/YYYY" type="text">
+			                </div>
+			            </div><!-- Text input-->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "myshiftendtime">Shift END TIME</label>
+
+			                <div class="col-md-4">
+			                    <input class="form-control input-md" id="myshiftendtime"
+			                    name="myshiftendtime" placeholder="2400 hours" type="text">
+			                </div>
+			            </div><!-- Select Basic -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="reason">Reason for
+			                shift swap</label>
+
+			                <div class="col-md-4">
+			                    <select class="form-control" id="reason" name="reason">
+			                        <option value="1">
+			                            Please select why...
+			                        </option>
+
+			                        <option value="2">
+			                            Education
+			                        </option>
+
+			                        <option value="3">
+			                            Conference
+			                        </option>
+
+			                        <option value="4">
+			                            Personal/Family
+			                        </option>
+
+			                        <option value="5">
+			                            Medical
+			                        </option>
+
+			                        <option value="6">
+			                            Other
+			                        </option>
+
+			                        <option value="">
+			                            I prefer not to disclose
+			                        </option>
+			                    </select>
+			                </div>
+			            </div><!-- Select Basic -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for="priority">How
+			                important is this swap?</label>
+
+			                <div class="col-md-4">
+			                    <select class="form-control" id="priority" name="priority">
+			                        <option value="1">
+			                            1 - high priority / urgent
+			                        </option>
+
+			                        <option value="2">
+			                            2 - medium priority
+			                        </option>
+
+			                        <option value="3">
+			                            3 - would be nice
+			                        </option>
+			                    </select>
+			                </div>
+			            </div><!-- Textarea -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "addcomment">Comments</label>
+
+			                <div class="col-md-4">
+			                    <textarea class="form-control" id="addcomment" name=
+			                    "addcomment">
+			Please add any other comments you may have...
+			</textarea>
+			                </div>
+			            </div><!-- Button (Double) -->
+
+			            <div class="form-group">
+			                <label class="col-md-4 control-label" for=
+			                "submitshift">Finalize</label>
+
+			                <div class="col-md-8">
+			                    <button class="btn btn-success" id="submitshift" name=
+			                    "submitshift">Submit my shifts</button> <button class=
+			                    "btn btn-danger" id="cancelshift" name=
+			                    "cancelshift">Cancel</button>
+			                </div>
+			            </div>
+			        </fieldset>
+			    </form>
+	
+	    </div><!-- /container -->
+	    <!-- Bootstrap core JavaScript
+
+	</body>
+
+</html>
