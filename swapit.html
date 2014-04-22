@@ -17,6 +17,8 @@
 	<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
 	<title>SwapnDrop</title>
 	
+	
+	
 </head>
 
 <body>
@@ -201,11 +203,19 @@
 			                START DATE</label>
 
 			                <div class="col-md-4">
-			                    <input class="form-control input-md" id="myshiftstrt" name=
-			                    "myshiftstrt" placeholder="DD/MM/YYYY" type="text">
-			                    <span class="help-block">please enter in the exact format
-			                    shown</span>
-			                </div>
+			                    <input class="form-control input-md" id="datetimepicker1" name="myshiftstrt" placeholder="DD/MM/YYYY" type="text">
+								<span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
+								           
+							<script type="text/javascript">
+								            $(function () {
+								                $('#datetimepicker1').datetimepicker();
+								            });
+							</script>
+								</div>  		
+								<span class="help-block">please enter in the exact format
+					                    shown</span>
+			
+			
 			            </div><!-- Text input-->
 
 			            <div class="form-group">
